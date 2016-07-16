@@ -48,6 +48,10 @@ body {
 	float: left;
 }
 
+.pullRight {
+	float: right;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -215,30 +219,95 @@ body {
 	font-weight: bold;
 }
 
+
 .saveTime {
 	background-image: url(images/parallax1.jpg);
-
+	width: 100%;
 }
 
-.saveTime .save {
-	width: 400px;
+.saveTime .col-md-12 {
 	text-align: center;
 }
 
-.saveTime .save p {
-	font-size: 60px;
+.saveTime h1 {
+	font-size: 80px;
 	color: white;
-	padding-top: 20px
 
 }
 
-.saveTime .save2{
-	width: 400px;
-	text-align: center;
+.saveTime .bold h1 {
+	margin-top: 60px;
 }
 
-.saveTime .save2 p{
-	font-size: 60px;
+
+.saveTime p{
+	font-size: 16px;
+	color:white;
+	margin: 10px 0;
+}
+
+.saveTime .button {
+	width: 236px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+
+}
+
+.saveTime button {
+	padding: 30px;
+	background-color: #15D7ED;
+	border: transparent;
 	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.sponsors {
+	margin-top: 10px;
+}
+
+
+.sponsors h1{
+	font-size: 40px;
+	color: #1C0A2B;
+	font-weight: bold;	
+	display: inline;
+}
+
+.sponsors span{
+	font-size: 40px;
+	color: #1C0A2B;
 	
+}
+
+.sponsors img {
+	width: 100%;
+}
+
+
+.footer {
+
+}
+
+.footer p{
+	font-size: 13px;
+}
+
+.footer .finish {
+	margin-bottom: 20px;
+}
+
+.footer p:last-child {
+	float:right;
+}
+
+.footer a {
+	text-decoration: none;
+	color:#1C0A2B;
+	transition: all 0.4s ease;
+}
+
+.footer a:hover {
+	color:#15D7ED;
 }
